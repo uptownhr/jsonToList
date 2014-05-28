@@ -1,11 +1,13 @@
 #jsonToList
 
-`npm install jsontolist
+`npm install jsontolist`
 
 ```
 var data = [1,2,3,4,5, [1,2,3,4], {test:'trest', juju:[4,3,2,1]},'a','b'];
-console.log( toList(data) );
 
+console.log( toList(data) );
+```
+```
 <ul>
     <li>1</li>
 
@@ -60,6 +62,8 @@ console.log( toList(data) );
 var data = { test: [1,2,3,4], juju: 'hello', 'a':1, 'b':'c', 'pupupu': { dumb: 'you' } };
 
 console.log( toList(data) );
+```
+```
 <ul>
     <li>test
 
