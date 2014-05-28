@@ -24,7 +24,7 @@ var isSerializable = function(input) {
     return false;
 };
 
-exports.toList = function toList(data){
+module.exports = exports = function toList(data){
     var $ = cheerio.load('<ul></ul>');
     var $ul = $('ul');
 
@@ -47,7 +47,7 @@ exports.toList = function toList(data){
                     $li.text(element + '');
                     // If the element is an array or object, render it in next line
                 } else {
-                    ul_html = exports.toList(element);
+                    ul_html = exports(element);
                     $li.html(ul_html);
                 }
                 $ul.append($li);
@@ -76,7 +76,7 @@ exports.toList = function toList(data){
                 // If the index is an array or object, render it in next line
             } else {
                 $li.text(key);
-                ul_html = exports.toList(isError && i === 'stack' ? data[i].split('\n') : data[i]);
+                ul_html = exports(isError && i === 'stack' ? data[i].split('\n') : data[i]);
                 $li.append(ul_html);
             }
             $ul.append($li);

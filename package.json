@@ -1,14 +1,22 @@
 {
-  "name": "jsontolist",
-  "version": "0.0.1",
-  "description": "Javascript object/array to HTML list",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "James Lee",
-  "license": "ISC",
-  "dependencies": {
-    "cheerio": "^0.16.0"
-  }
+    "name": "jsontolist",
+    "version": "0.0.1",
+    "description": "Javascript object/array to HTML list",
+    "homepage": "https://github.com/uptownhr/jsonToList",
+    "repository" :
+    {
+        "type" : "git",
+        "url" : "https://github.com/uptownhr/jsonToList"
+    },
+    "email" : "jlee@penguin.ws",
+    "keywords": ["pretty","json", "list"],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "James Lee",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^0.16.0"
+    }
 }
