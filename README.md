@@ -2,6 +2,8 @@
 
 `npm install jsontolist`
 
+`var toList = require('jsontolist');`
+
 ```
 var data = [1,2,3,4,5, [1,2,3,4], {test:'trest', juju:[4,3,2,1]},'a','b'];
 
