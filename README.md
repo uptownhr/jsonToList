@@ -1,14 +1,15 @@
 #jsonToList
 
-`npm install jsontolist`
-
-`var toList = require('jsontolist');`
+##Ever want to just dump your JSON for output?
 
 ```
-var data = [1,2,3,4,5, [1,2,3,4], {test:'trest', juju:[4,3,2,1]},'a','b'];
+var toList = require('jsontolist');
 
+var data = [1,2,3,4,5, [1,2,3,4], {test:'test', juju:[4,3,2,1]},'a','b'];
 console.log( toList(data) );
 ```
+
+###Returns HTML List
 ```
 <ul>
     <li>1</li>
@@ -56,41 +57,24 @@ console.log( toList(data) );
 
     <li>b</li>
 </ul>
-
 ```
 
+### HTML VIew
+*   1
+*   2
+*   3
+*   4
+*   5
+*   *   1
+    *   2
+    *   3
+    *   4
+*   *   test:trest
+    *   juju
 
-```
-var data = { test: [1,2,3,4], juju: 'hello', 'a':1, 'b':'c', 'pupupu': { dumb: 'you' } };
-
-console.log( toList(data) );
-```
-```
-<ul>
-    <li>test
-
-        <ul>
-            <li>1</li>
-
-            <li>2</li>
-
-            <li>3</li>
-
-            <li>4</li>
-        </ul>
-    </li>
-
-    <li>juju:hello</li>
-
-    <li>a:1</li>
-
-    <li>b:c</li>
-
-    <li>pupupu
-
-        <ul>
-            <li>dumb:you</li>
-        </ul>
-    </li>
-</ul>
-```
+            *   4
+	    *   3
+        *   2
+        *   1
+*   a
+*   b

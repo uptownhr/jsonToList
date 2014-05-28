@@ -1,6 +1,6 @@
 {
     "name": "jsontolist",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Javascript object/array to HTML list",
     "homepage": "https://github.com/uptownhr/jsonToList",
     "repository" :
