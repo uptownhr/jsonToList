@@ -1,5 +1,5 @@
 {
-  "name": "jsontoList",
+  "name": "jsontolist",
   "version": "0.0.1",
   "description": "Javascript object/array to HTML list",
   "main": "index.js",
