@@ -65,15 +65,17 @@ console.log( toList(data) );
 *   3
 *   4
 *   5
-*   *   1
+*      
+    *   1
     *   2
     *   3
     *   4
-*   *   test:trest
+*   
+    *   test:trest
     *   juju
 
-            *   4
-	    *   3
+        *   4
+        *   3
         *   2
         *   1
 *   a
