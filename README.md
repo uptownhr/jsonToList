@@ -1,5 +1,7 @@
 #jsonToList
 
+[![Join the chat at https://gitter.im/uptownhr/jsonToList](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/uptownhr/jsonToList?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ##Ever want to just dump your JSON for output?
 
 ```
